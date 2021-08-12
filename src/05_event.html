@@ -52,9 +52,9 @@
   </head>
   <body>
     <div class="stage">
-      <div class="ilbuni a"></div>
-      <div class="ilbuni b"></div>
-      <div class="ilbuni c"></div>
+      <div class="ilbuni a" data-value="1"></div>
+      <div class="ilbuni b" data-value="2"></div>
+      <div class="ilbuni c" data-value="3"></div>
     </div>
     <script>
       (function () {
@@ -62,8 +62,10 @@
         const stage = document.querySelector(".stage");
 
         function clickHandler(e) {
-          if (e.target.classList.contains("ilbuni")) {
-            stage.removeChild(e.target);
+          let elem = e.target;
+          if (elem.classList.contains("ilbuni")) {
+            stage.removeChild(elem);
+            console.log(elem.dataset.value);
           }
         }
         stage.addEventListener("click", clickHandler);
