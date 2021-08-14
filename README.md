@@ -22,4 +22,4 @@
 
 # 전진! 3D 스크롤
 
-<img scr="./public/gif/scroll-min.gif" widtj="80% >
+<img src="./public/gif/scroll-min.gif" width="80%" >
