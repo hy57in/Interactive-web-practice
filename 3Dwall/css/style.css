@@ -1,4 +1,5 @@
 body {
+  height: 500vw;
   font-family: "Apple SD Gothic Neo", "Roboto", "Noto Sans KR", NanumGothic,
     "Malgun Gothic", sans-serif;
   -webkit-overflow-scrolling: touch;
