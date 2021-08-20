@@ -1,3 +1,24 @@
+@keyframes ani-head {
+  to {
+    transform: rotateX(-10deg);
+  }
+}
+@keyframes ani-running-leg {
+  from {
+    transform: rotateX(-30deg);
+  }
+  to {
+    transform: rotateX(30deg);
+  }
+}
+@keyframes ani-running-arm {
+  from {
+    transform: rotateY(30deg);
+  }
+  to {
+    transform: rotateY(-30deg);
+  }
+}
 body {
   height: 500vw;
   font-family: "Apple SD Gothic Neo", "Roboto", "Noto Sans KR", NanumGothic,
